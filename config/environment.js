@@ -39,7 +39,7 @@ module.exports = function(environment) {
     },
 
     'ember-cli-mirage': {
-      enabled: environment === 'test'
+      enabled: true
     }
   };
 
